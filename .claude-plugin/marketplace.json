@@ -1,0 +1,14 @@
+{
+  "name": "moscow-panel",
+  "owner": {
+    "name": "Pol Marzà"
+  },
+  "description": "El panel MoSCoW de Con Criterio para Claude Code",
+  "plugins": [
+    {
+      "name": "moscow-panel",
+      "source": "./",
+      "description": "Panel con las funcionalidades MoSCoW del PRD y su estado según las fichas de docs/features/"
+    }
+  ]
+}

@@ -1,0 +1,8 @@
+{
+  "name": "moscow-panel",
+  "version": "0.1.0",
+  "description": "Panel con las funcionalidades MoSCoW del PRD y su estado según las fichas de docs/features/",
+  "author": {
+    "name": "Pol Marzà"
+  }
+}
