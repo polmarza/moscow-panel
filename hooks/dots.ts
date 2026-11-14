@@ -6,8 +6,8 @@ import type { Status } from './board'
 
 export const DOT_PX = 12
 
-const GREEN = '#06D6A0'
-const AMBER = '#FFBE0B'
+const GREEN = '#3fb950'
+const AMBER = '#e3a008'
 const GREY = '#8b8b8b'
 
 const svg = (body: string) =>
