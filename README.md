@@ -13,15 +13,17 @@ El panel solo lee. No guarda nada propio ni deja cambiar estados: todo sale de `
 En una sesión de Claude Code en el terminal:
 
 ```
-/plugin install moscow-panel --marketplace polmarza/mod-moscow-panel
+/plugin marketplace add polmarza/mod-moscow-panel
+/plugin install moscow-panel@moscow-panel
 ```
 
-Responde `y` para añadir el marketplace y elige dónde instalarlo (para todos tus proyectos o solo para este).
+El primer comando añade el repositorio como marketplace; en el segundo eliges dónde instalarlo (para todos tus proyectos o solo para este).
 
 Desde una terminal normal:
 
 ```
-claude plugin install moscow-panel --marketplace polmarza/mod-moscow-panel
+claude plugin marketplace add polmarza/mod-moscow-panel
+claude plugin install moscow-panel@moscow-panel
 ```
 
 Los mods de Claude Code están en acceso anticipado: alguna actualización puede cambiar cómo funcionan.
